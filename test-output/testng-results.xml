@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-01T11:08:20 BDT" name="Automaiton" finished-at="2023-08-01T11:08:43 BDT" duration-ms="22368">
+    <groups>
+    </groups>
+    <test started-at="2023-08-01T11:08:20 BDT" name="LoginTest" finished-at="2023-08-01T11:08:43 BDT" duration-ms="22368">
+      <class name="com.test.tests.LoginTest">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.test.tests.LoginTest@1e800aaa]" started-at="2023-08-01T11:08:20 BDT" name="start" finished-at="2023-08-01T11:08:23 BDT" duration-ms="2480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.test.tests.LoginTest@1e800aaa]" started-at="2023-08-01T11:08:23 BDT" name="openUrl" finished-at="2023-08-01T11:08:25 BDT" duration-ms="2151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="loginTest()[pri:0, instance:com.test.tests.LoginTest@1e800aaa]" started-at="2023-08-01T11:08:25 BDT" name="loginTest" finished-at="2023-08-01T11:08:34 BDT" duration-ms="8659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.test.tests.LoginTest@1e800aaa]" started-at="2023-08-01T11:08:34 BDT" name="afterClass" finished-at="2023-08-01T11:08:34 BDT" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.test.tests.LoginTest@1e800aaa]" started-at="2023-08-01T11:08:42 BDT" name="close" finished-at="2023-08-01T11:08:43 BDT" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.test.tests.LoginTest -->
+      <class name="com.test.tests.DashboardTest">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.test.tests.DashboardTest@4116aac9]" started-at="2023-08-01T11:08:34 BDT" name="openUrl" finished-at="2023-08-01T11:08:34 BDT" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="dashBoardTest()[pri:0, instance:com.test.tests.DashboardTest@4116aac9]" started-at="2023-08-01T11:08:34 BDT" name="dashBoardTest" finished-at="2023-08-01T11:08:42 BDT" duration-ms="7658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashBoardTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.test.tests.DashboardTest@4116aac9]" started-at="2023-08-01T11:08:42 BDT" name="afterClass" finished-at="2023-08-01T11:08:42 BDT" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.tests.DashboardTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Automaiton -->
+</testng-results>
