@@ -49,7 +49,7 @@ public class DashboardPage extends CommonMethod {
 		WebElement CheckYourCart;
 		
 		@FindBys ({
-			@FindBy (xpath = "//button[@name='checkout']")
+			@FindBy (xpath = "//button[@name='checkout']Wrong")
 			
 		})
 		
@@ -71,7 +71,7 @@ public class DashboardPage extends CommonMethod {
 			test.pass(MediaEntityBuilder.createScreenCaptureFromPath(dest).build());
 		     } 
 			} catch (Exception e) {
-			System.out.println();
+			System.out.println(e);
 			}
 		}
 		
